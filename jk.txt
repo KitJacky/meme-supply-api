@@ -1,0 +1,7 @@
+#npm run build
+#pm2 delete 0 
+#pm2 delete 1
+nvm use v16
+pm2 delete Meme-API
+pm2 flush
+pm2 start index.js -i 2 -n Meme-API
