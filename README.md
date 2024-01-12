@@ -24,13 +24,21 @@ This improves the reliability and stability of the supply information API by qui
 ## Other routes
 
 － `/v1/total-supply`: returns total supply in plain text
+
 － `/v1/circulating-supply`: returns circulating supply in plain text
+
 － `/v1/total-staked`: returns total staked in plain text
+
 － `/v1/bonded-ratio`: returns bonded ratio in plain text
+
 － `/v1/community-pool`: returns community pool size in plain text
+
 － `/v1/apr`: returns APR in plain text
+
 － `/v1/denom`: returns denom in plain text
+
 － `/v1`: JSON
+
 
 
 ### How circulating supply is calculated
@@ -46,7 +54,7 @@ This yields the circulating supply.
 See `.env.example` for an example.
 
 eg:
-
+```
 INTERVAL=120000 # if INTERVAL = 60000 = 60s cache, 
 PORT=3010
 API_ENDPOINT1=https://meme-api.polkachu.com
@@ -55,7 +63,7 @@ API_ENDPOINT3=https://meme.api.m.anode.team
 COIN_DENOM=umeme
 COIN_DECIMALS=6
 DENOM=MEME
-
+```
 
 
 ## JK Labs
